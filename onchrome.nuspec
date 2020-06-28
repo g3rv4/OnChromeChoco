@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>onchrome</id>
+    <version>1.0.1</version>
+    <title>OnChrome</title>
+    <authors>Gervasio Marchand Cassataro</authors>
+    <projectUrl>https://onchro.me</projectUrl>
+    <iconUrl>https://onchro.me/assets/images/logo64.png</iconUrl>
+    <tags>onchrome</tags>
+    <summary>Native application supporting the Firefox extension</summary>
+    <description>App required for the OnChrome Firefox extension to work</description>
+    <projectSourceUrl>https://github.com/g3rv4/OnChrome</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/g3rv4/OnChrome/issues</bugTrackerUrl>
+    <docsUrl>https://onchro.me</docsUrl>
+    <licenseUrl>https://github.com/g3rv4/OnChrome/blob/master/LICENSE</licenseUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
