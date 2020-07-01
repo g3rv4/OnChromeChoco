@@ -2,7 +2,7 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = ''
-$url64      = 'https://files.onchro.me/deploy/1.0.1/win64/OnChrome.msi'
+$url64      = 'https://files.onchro.me/deploy/1.0.2/win64/OnChrome.msi'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -15,7 +15,7 @@ $packageArgs = @{
 
   checksum      = ''
   checksumType  = 'sha256'
-  checksum64    = '99417901CDB1DAA479FBEC25932FB00E03D742A268FFC3E1797B7AF55C4F11B1'
+  checksum64    = 'A6FF95FE4934C0076FEF47B056347C7F0A3E41C0D3271ECD885C01EAB293086C'
   checksumType64= 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
