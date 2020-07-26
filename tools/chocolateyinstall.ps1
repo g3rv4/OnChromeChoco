@@ -13,8 +13,6 @@ $packageArgs = @{
 
   softwareName  = 'OnChrome*'
 
-  checksum      = ''
-  checksumType  = 'sha256'
   checksum64    = 'A6FF95FE4934C0076FEF47B056347C7F0A3E41C0D3271ECD885C01EAB293086C'
   checksumType64= 'sha256'
 
